@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     </head>
     <body>
+        @include('layouts.navigation')
         <div class="font-sans text-gray-900 antialiased">
             {{ $slot }}
         </div>

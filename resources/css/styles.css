@@ -1,0 +1,22 @@
+/* Style rules for dark mode */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #2f2f2f !important;
+        color: #ddd !important;
+    }
+  }
+  /* Style rules for light mode */
+  @media (prefers-color-scheme: light) {
+    body {
+      background-color: white !important;
+      color: #1f1f1f !important;
+    }
+  }
+.darktheme {
+    background-color: #2f2f2f !important;
+    color: #ddd !important;
+}
+.lighttheme {
+    background-color: white !important;
+      color: #1f1f1f !important;
+}
